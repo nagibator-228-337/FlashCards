@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\18leo\\source\\repos\\FlashCards\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\18leo\\source\\repos\\flashcards\\flashcards\\addcarducpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\addcarducpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\18leo\\source\\repos\\flashcards\\flashcards\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\18leo\\source\\repos\\flashcards\\flashcards\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\18leo\\source\\repos\\flashcards\\flashcards\\addcarducpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\addcarducpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\18leo\\source\\repos\\flashcards\\flashcards\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\18leo\\source\\repos\\flashcards\\flashcards\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\18leo\\source\\repos\\flashcards\\flashcards\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\18leo\\source\\repos\\flashcards\\flashcards\\data\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\data\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\18leo\\source\\repos\\flashcards\\flashcards\\flashcards.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\flashcards.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FlashCards.csproj",
+              "DocumentMoniker": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\FlashCards.csproj",
+              "RelativeDocumentMoniker": "FlashCards\\FlashCards.csproj",
+              "ToolTip": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\FlashCards.csproj",
+              "RelativeToolTip": "FlashCards\\FlashCards.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-03T07:59:28.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "FlashCards\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\AssemblyInfo.cs",
+              "RelativeToolTip": "FlashCards\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:00:07.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddCardUCPanel.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\AddCardUCPanel.xaml.cs",
+              "RelativeDocumentMoniker": "FlashCards\\AddCardUCPanel.xaml.cs",
+              "ToolTip": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\AddCardUCPanel.xaml.cs",
+              "RelativeToolTip": "FlashCards\\AddCardUCPanel.xaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwEAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T18:17:36.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\Models\\Card.cs",
+              "RelativeDocumentMoniker": "FlashCards\\Models\\Card.cs",
+              "ToolTip": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\Models\\Card.cs",
+              "RelativeToolTip": "FlashCards\\Models\\Card.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:10:27.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\App.xaml.cs",
+              "RelativeDocumentMoniker": "FlashCards\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\App.xaml.cs",
+              "RelativeToolTip": "FlashCards\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:44:16.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FlashCards\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\MainWindow.xaml.cs",
+              "RelativeToolTip": "FlashCards\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwB0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T07:48:42.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddCardUCPanel.xaml",
+              "DocumentMoniker": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\AddCardUCPanel.xaml",
+              "RelativeDocumentMoniker": "FlashCards\\AddCardUCPanel.xaml",
+              "ToolTip": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\AddCardUCPanel.xaml",
+              "RelativeToolTip": "FlashCards\\AddCardUCPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T14:02:29.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\Data\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "FlashCards\\Data\\DatabaseService.cs",
+              "ToolTip": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\Data\\DatabaseService.cs",
+              "RelativeToolTip": "FlashCards\\Data\\DatabaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:22:25.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "FlashCards\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\18leo\\source\\repos\\FlashCards\\FlashCards\\MainWindow.xaml",
+              "RelativeToolTip": "FlashCards\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-03T07:48:45.445Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
