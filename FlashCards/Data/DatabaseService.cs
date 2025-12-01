@@ -50,11 +50,11 @@ namespace FlashCards.Data
             connection.Open();
 
             string query = @"
-        INSERT INTO Cards 
-        (Word, Translation, Sentence, ImagePath, KnownLevel, LastReviewed, NextAvailableAfter, CreatedAt, UpdatedAt)
-        VALUES 
-        (@word, @translation, @sentence, @image, @level, @last, @next, @created, @updated);
-    ";
+            INSERT INTO Cards 
+            (Word, Translation, Sentence, ImagePath, KnownLevel, LastReviewed, NextAvailableAfter, CreatedAt, UpdatedAt)
+            VALUES 
+            (@word, @translation, @sentence, @image, @level, @last, @next, @created, @updated);
+            ";
 
             using var command = connection.CreateCommand();
             command.CommandText = query;
