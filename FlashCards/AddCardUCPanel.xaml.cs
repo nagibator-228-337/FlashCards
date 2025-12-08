@@ -13,6 +13,8 @@ namespace FlashCards
         private MainWindow? _mainWindow;
         private DispatcherTimer _highlightTimer;
 
+        private int? _edittingCardId = null;
+
         public AddCardUCPanel()
         {
             InitializeComponent();
@@ -145,6 +147,7 @@ namespace FlashCards
 
             var newCard = new Card()
             {
+                Id = _edittingCardId ?? 0,
                 Word = WordTextBox.Text,
                 Sentence = SentenceTextBox.Text,
                 Translation = TranslateTextBox.Text,
@@ -153,7 +156,15 @@ namespace FlashCards
                 UpdatedAt = DateTime.Now
             };
 
-            dbService.AddCard(newCard);
+            if (_edittingCardId == null)
+            {
+                dbService.AddCard(newCard);
+            }
+            else
+            {
+                dbService.UpdateCard(newCard);
+            }
+            
 
             //clearing
             WordTextBox.Text = "";
@@ -164,6 +175,17 @@ namespace FlashCards
             ErrorLabelFront.Visibility = Visibility.Collapsed;
             ErrorLabelBack.Visibility = Visibility.Collapsed;
 
+        }
+
+        public void LoadCardForEdit(Card card)
+        {
+            _edittingCardId = card.Id;
+
+            WordTextBox.Text = card.Word;
+            TranslateTextBox.Text = card.Translation;
+            SentenceTextBox.Text = card.Sentence;
+
+            SaveButton.Content = "Update";
         }
     }
 }

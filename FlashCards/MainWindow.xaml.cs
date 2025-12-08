@@ -11,6 +11,7 @@ using System.Windows.Shapes;
 using System.Collections.Generic;
 using FlashCards.Data;
 using FlashCards.Models;
+using System.Collections.ObjectModel;
 
 namespace FlashCards
 {
@@ -29,6 +30,14 @@ namespace FlashCards
             var panel = new AddCardUCPanel();
             AddCardContent.Content = panel;
             AddCardContent.Visibility = Visibility.Visible;
+            Darkening.Visibility = Visibility.Visible;
+        }
+
+        private void EditButton_click(object sender, RoutedEventArgs e)
+        {
+            var panel = new EditCardsPanel();
+            EditCardContent.Content = panel;
+            EditCardContent.Visibility = Visibility.Visible;
             Darkening.Visibility = Visibility.Visible;
         }
 

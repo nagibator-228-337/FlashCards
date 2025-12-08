@@ -83,11 +83,13 @@ namespace FlashCards.Data
 
             while (reader.Read()) 
             {
+                int id = Convert.ToInt32(reader["Id"]);
                 string word = (string)reader["Word"];
                 string translation = reader["Translation"] is DBNull ? "" : (string)reader["Translation"];
                 int level = Convert.ToInt32(reader["KnownLevel"]);
                 Card card = new Card()
                 {
+                    Id = id,
                     Word = word,
                     Translation = translation,
                     KnownLevel = level
@@ -95,6 +97,30 @@ namespace FlashCards.Data
                 cards.Add(card);
             }
             return cards;
+        }
+
+        public void UpdateCard (Card card)
+        {
+            using var connection = new SqliteConnection($"Data Source={_dbPath}");
+            connection.Open();
+
+            using var command = connection.CreateCommand();
+            command.CommandText = @"
+                UPDATE Cards SET
+                    Word = @word,
+                    Translation = @translation,
+                    Sentence = @sentence,
+                    ImagePath = @image,
+                    UpdatedAt = @updated
+                WHERE Id = @id;
+             ";
+
+            command.Parameters.AddWithValue("@word", card.Word);
+            command.Parameters.AddWithValue("@translation", card.Translation);
+            command.Parameters.AddWithValue("@sentence", card.Sentence ?? "");
+            command.Parameters.AddWithValue("@image", card.ImagePath ?? "");
+            command.Parameters.AddWithValue("@updated", card.UpdatedAt.ToString("o"));
+
         }
 
     }

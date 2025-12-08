@@ -82,6 +82,7 @@
                         Style="{StaticResource RoundedButton}"/>
 
                         <Button Content="🖍"
+                        Click="EditButton_click"
                         MinHeight="40"
                         Margin="5"
                         Style="{StaticResource RoundedButton}"/>
@@ -107,6 +108,11 @@
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"
                     Visibility="Collapsed" />
+            <ContentControl x:Name="EditCardContent"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Visibility="Collapsed"
+                />
         </Grid>
 
     </Grid>
