@@ -3,19 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\learningsessionpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\learningsessionpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\editcardspanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\editcardspanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\editcardspanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\editcardspanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\addcarducpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\addcarducpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\loh\\AppData\\Local\\Temp\\.vsdbgsrc\\229e7be31f9c07f07d4a015bfccca0369d8b6096530c222259ab1982e2e973ba\\Page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,28 +19,55 @@
       "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\learningsessionpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\learningsessionpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\editcardspanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\editcardspanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\learningsessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\learningsessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\addcarducpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\addcarducpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\sessioncard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\sessioncard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\basehadlercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\basehadlercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\data\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\data\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\obj\\Debug\\net8.0-windows\\AddCardUCPanel.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FlashCards\\obj\\Debug\\net8.0-windows\\AddCardUCPanel.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|c:\\users\\loh\\documents\\github\\flashcards\\flashcards\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F89DABF1-3DD3-4F5B-A7BF-D5606A5DF260}|FlashCards\\FlashCards.csproj|solutionrelative:flashcards\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\loh\\AppData\\Local\\Temp\\.vsdbgsrc\\229e7be31f9c07f07d4a015bfccca0369d8b6096530c222259ab1982e2e973ba\\Page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,98 +77,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Page.cs",
-              "DocumentMoniker": "C:\\Users\\loh\\AppData\\Local\\Temp\\.vsdbgsrc\\229e7be31f9c07f07d4a015bfccca0369d8b6096530c222259ab1982e2e973ba\\Page.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\229e7be31f9c07f07d4a015bfccca0369d8b6096530c222259ab1982e2e973ba\\Page.cs",
-              "ToolTip": "C:\\Users\\loh\\AppData\\Local\\Temp\\.vsdbgsrc\\229e7be31f9c07f07d4a015bfccca0369d8b6096530c222259ab1982e2e973ba\\Page.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\229e7be31f9c07f07d4a015bfccca0369d8b6096530c222259ab1982e2e973ba\\Page.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
-              "ViewState": "AgIAAHMCAAAAAAAAAAAmwJYCAAACAAAAAQAAAA==",
+              "DocumentIndex": 4,
+              "Title": "LearningSessionPanel.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\LearningSessionPanel.xaml.cs",
+              "RelativeDocumentMoniker": "FlashCards\\LearningSessionPanel.xaml.cs",
+              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\LearningSessionPanel.xaml.cs",
+              "RelativeToolTip": "FlashCards\\LearningSessionPanel.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T15:08:49.649Z",
-              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
+              "WhenOpened": "2025-12-14T16:21:56.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\App.xaml.cs",
-              "RelativeDocumentMoniker": "FlashCards\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\App.xaml.cs",
-              "RelativeToolTip": "FlashCards\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EditCardsPanel.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\EditCardsPanel.xaml.cs",
+              "RelativeDocumentMoniker": "FlashCards\\EditCardsPanel.xaml.cs",
+              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\EditCardsPanel.xaml.cs",
+              "RelativeToolTip": "FlashCards\\EditCardsPanel.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T16:47:35.248Z"
+              "WhenOpened": "2025-12-08T12:01:11.238Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AddCardUCPanel.xaml",
-              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\AddCardUCPanel.xaml",
-              "RelativeDocumentMoniker": "FlashCards\\AddCardUCPanel.xaml",
-              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\AddCardUCPanel.xaml",
-              "RelativeToolTip": "FlashCards\\AddCardUCPanel.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-06T16:47:35.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddCardUCPanel.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\AddCardUCPanel.xaml.cs",
-              "RelativeDocumentMoniker": "FlashCards\\AddCardUCPanel.xaml.cs",
-              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\AddCardUCPanel.xaml.cs",
-              "RelativeToolTip": "FlashCards\\AddCardUCPanel.xaml.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAowJAAAAAXAAAAAAAAAA==",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FlashCards\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\MainWindow.xaml.cs",
+              "RelativeToolTip": "FlashCards\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAywDAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T16:47:35.252Z",
+              "WhenOpened": "2025-12-06T16:47:35.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "FlashCards\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\AssemblyInfo.cs",
-              "RelativeToolTip": "FlashCards\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T16:47:35.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Card.cs",
-              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\Models\\Card.cs",
-              "RelativeDocumentMoniker": "FlashCards\\Models\\Card.cs",
-              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\Models\\Card.cs",
-              "RelativeToolTip": "FlashCards\\Models\\Card.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T16:47:35.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\App.xaml",
-              "RelativeDocumentMoniker": "FlashCards\\App.xaml",
-              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\App.xaml",
-              "RelativeToolTip": "FlashCards\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-06T16:47:35.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\MainWindow.xaml",
               "RelativeDocumentMoniker": "FlashCards\\MainWindow.xaml",
@@ -160,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "EditCardsPanel.xaml",
               "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\EditCardsPanel.xaml",
               "RelativeDocumentMoniker": "FlashCards\\EditCardsPanel.xaml",
@@ -173,41 +145,153 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EditCardsPanel.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\EditCardsPanel.xaml.cs",
-              "RelativeDocumentMoniker": "FlashCards\\EditCardsPanel.xaml.cs",
-              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\EditCardsPanel.xaml.cs",
-              "RelativeToolTip": "FlashCards\\EditCardsPanel.xaml.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAMwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T12:01:11.238Z",
+              "Title": "LearningSessionPanel.xaml",
+              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\LearningSessionPanel.xaml",
+              "RelativeDocumentMoniker": "FlashCards\\LearningSessionPanel.xaml",
+              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\LearningSessionPanel.xaml",
+              "RelativeToolTip": "FlashCards\\LearningSessionPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-14T16:20:35.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "FlashCards\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\MainWindow.xaml.cs",
-              "RelativeToolTip": "FlashCards\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwCEAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "LearningSessionManager.cs",
+              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\LearningSessionManager.cs",
+              "RelativeDocumentMoniker": "FlashCards\\LearningSessionManager.cs",
+              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\LearningSessionManager.cs",
+              "RelativeToolTip": "FlashCards\\LearningSessionManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T16:47:35.244Z",
+              "WhenOpened": "2025-12-14T18:59:35.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "AddCardUCPanel.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\AddCardUCPanel.xaml.cs",
+              "RelativeDocumentMoniker": "FlashCards\\AddCardUCPanel.xaml.cs",
+              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\AddCardUCPanel.xaml.cs",
+              "RelativeToolTip": "FlashCards\\AddCardUCPanel.xaml.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:47:35.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SessionCard.cs",
+              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\SessionCard.cs",
+              "RelativeDocumentMoniker": "FlashCards\\SessionCard.cs",
+              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\SessionCard.cs",
+              "RelativeToolTip": "FlashCards\\SessionCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T20:43:37.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseHadlerControl.cs",
+              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\BaseHadlerControl.cs",
+              "RelativeDocumentMoniker": "FlashCards\\BaseHadlerControl.cs",
+              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\BaseHadlerControl.cs",
+              "RelativeToolTip": "FlashCards\\BaseHadlerControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T14:29:28.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "DatabaseService.cs",
               "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\Data\\DatabaseService.cs",
               "RelativeDocumentMoniker": "FlashCards\\Data\\DatabaseService.cs",
               "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\Data\\DatabaseService.cs",
               "RelativeToolTip": "FlashCards\\Data\\DatabaseService.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAcwFYAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-06T16:47:35.246Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\App.xaml.cs",
+              "RelativeDocumentMoniker": "FlashCards\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\App.xaml.cs",
+              "RelativeToolTip": "FlashCards\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:47:35.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\App.xaml",
+              "RelativeDocumentMoniker": "FlashCards\\App.xaml",
+              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\App.xaml",
+              "RelativeToolTip": "FlashCards\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-06T16:47:35.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddCardUCPanel.g.cs",
+              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\obj\\Debug\\net8.0-windows\\AddCardUCPanel.g.cs",
+              "RelativeDocumentMoniker": "FlashCards\\obj\\Debug\\net8.0-windows\\AddCardUCPanel.g.cs",
+              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\obj\\Debug\\net8.0-windows\\AddCardUCPanel.g.cs",
+              "RelativeToolTip": "FlashCards\\obj\\Debug\\net8.0-windows\\AddCardUCPanel.g.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAIwKIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T20:51:17.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\Models\\Card.cs",
+              "RelativeDocumentMoniker": "FlashCards\\Models\\Card.cs",
+              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\Models\\Card.cs",
+              "RelativeToolTip": "FlashCards\\Models\\Card.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:47:35.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "FlashCards\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\loh\\Documents\\GitHub\\FlashCards\\FlashCards\\AssemblyInfo.cs",
+              "RelativeToolTip": "FlashCards\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:47:35.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Page.cs",
+              "DocumentMoniker": "C:\\Users\\loh\\AppData\\Local\\Temp\\.vsdbgsrc\\229e7be31f9c07f07d4a015bfccca0369d8b6096530c222259ab1982e2e973ba\\Page.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\229e7be31f9c07f07d4a015bfccca0369d8b6096530c222259ab1982e2e973ba\\Page.cs",
+              "ToolTip": "C:\\Users\\loh\\AppData\\Local\\Temp\\.vsdbgsrc\\229e7be31f9c07f07d4a015bfccca0369d8b6096530c222259ab1982e2e973ba\\Page.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\229e7be31f9c07f07d4a015bfccca0369d8b6096530c222259ab1982e2e973ba\\Page.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "ViewState": "AgIAAHMCAAAAAAAAAAAmwJYCAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:08:49.649Z",
+              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
             }
           ]
         }

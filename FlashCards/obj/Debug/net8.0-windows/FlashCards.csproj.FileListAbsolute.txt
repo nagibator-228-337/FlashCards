@@ -146,12 +146,15 @@ C:\Users\loh\Documents\GitHub\FlashCards\FlashCards\bin\Debug\net8.0-windows\run
 C:\Users\loh\Documents\GitHub\FlashCards\FlashCards\obj\Debug\net8.0-windows\FlashCards.csproj.AssemblyReference.cache
 C:\Users\loh\Documents\GitHub\FlashCards\FlashCards\obj\Debug\net8.0-windows\AddCardUCPanel.g.cs
 C:\Users\loh\Documents\GitHub\FlashCards\FlashCards\obj\Debug\net8.0-windows\EditCardsPanel.g.cs
+C:\Users\loh\Documents\GitHub\FlashCards\FlashCards\obj\Debug\net8.0-windows\LearningSessionPanel.g.cs
 C:\Users\loh\Documents\GitHub\FlashCards\FlashCards\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\loh\Documents\GitHub\FlashCards\FlashCards\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\loh\Documents\GitHub\FlashCards\FlashCards\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\loh\Documents\GitHub\FlashCards\FlashCards\obj\Debug\net8.0-windows\FlashCards_MarkupCompile.cache
 C:\Users\loh\Documents\GitHub\FlashCards\FlashCards\obj\Debug\net8.0-windows\FlashCards_MarkupCompile.lref
 C:\Users\loh\Documents\GitHub\FlashCards\FlashCards\obj\Debug\net8.0-windows\AddCardUCPanel.baml
 C:\Users\loh\Documents\GitHub\FlashCards\FlashCards\obj\Debug\net8.0-windows\EditCardsPanel.baml
+C:\Users\loh\Documents\GitHub\FlashCards\FlashCards\obj\Debug\net8.0-windows\LearningSessionPanel.baml
 C:\Users\loh\Documents\GitHub\FlashCards\FlashCards\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\loh\Documents\GitHub\FlashCards\FlashCards\obj\Debug\net8.0-windows\FlashCards.g.resources
 C:\Users\loh\Documents\GitHub\FlashCards\FlashCards\obj\Debug\net8.0-windows\FlashCards.GeneratedMSBuildEditorConfig.editorconfig

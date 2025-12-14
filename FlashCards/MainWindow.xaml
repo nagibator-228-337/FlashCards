@@ -61,6 +61,7 @@
                         Background="White"
                         MinHeight="200">
                         <Button Content="Learn Words"
+                                Click="LearnWordsButton_Click"
                         HorizontalAlignment="Stretch"
                         VerticalAlignment="Stretch"
                         Padding="20"
@@ -113,6 +114,10 @@
                     VerticalAlignment="Center"
                     Visibility="Collapsed"
                 />
+            <ContentControl x:Name="LearnWordsContent"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Visibility="Collapsed"/>
         </Grid>
 
     </Grid>

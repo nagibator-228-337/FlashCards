@@ -41,6 +41,14 @@ namespace FlashCards
             Darkening.Visibility = Visibility.Visible;
         }
 
+        private void LearnWordsButton_Click(object sender, RoutedEventArgs e)
+        {
+            var panel = new LearningSessionPanel();
+            LearnWordsContent.Content = panel;
+            LearnWordsContent.Visibility = Visibility.Visible;
+            Darkening.Visibility = Visibility.Visible;
+        }
+
         private void Window_SizeChanged(object sender, SizeChangedEventArgs e)
         {
             double width = this.ActualWidth;

@@ -115,12 +115,13 @@ namespace FlashCards.Data
                 WHERE Id = @id;
              ";
 
+            command.Parameters.AddWithValue("@id", card.Id);
             command.Parameters.AddWithValue("@word", card.Word);
             command.Parameters.AddWithValue("@translation", card.Translation);
             command.Parameters.AddWithValue("@sentence", card.Sentence ?? "");
             command.Parameters.AddWithValue("@image", card.ImagePath ?? "");
             command.Parameters.AddWithValue("@updated", card.UpdatedAt.ToString("o"));
-
+            command.ExecuteNonQuery();
         }
 
     }

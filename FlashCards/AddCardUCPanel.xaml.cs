@@ -8,7 +8,7 @@ using System.Windows.Threading;
 
 namespace FlashCards
 {
-    public partial class AddCardUCPanel : UserControl
+    public partial class AddCardUCPanel : BaseHandlerControl
     {
         private MainWindow? _mainWindow;
         private DispatcherTimer _highlightTimer;
@@ -67,18 +67,6 @@ namespace FlashCards
             }
         }
 
-        private void CancelButtonClick(object? sender, RoutedEventArgs? e)
-        {
-            var result = MessageBox.Show("Discard changes?", "Cancel", MessageBoxButton.YesNo, MessageBoxImage.Warning);
-            if (result == MessageBoxResult.Yes)
-            {
-                if (_mainWindow != null)
-                {
-                    _mainWindow.AddCardContent.Content = null;
-                    _mainWindow.Darkening.Visibility = Visibility.Collapsed;
-                }
-            }
-        }
 
         private void FlipButtonClick(object sender, RoutedEventArgs e)
         {
@@ -94,6 +82,60 @@ namespace FlashCards
             }
         }
 
+        private void CancelButtonClick(object? sender, RoutedEventArgs? e)
+        {
+            if (string.IsNullOrWhiteSpace(WordTextBox.Text) && string.IsNullOrWhiteSpace(TranslateTextBox.Text) && string.IsNullOrWhiteSpace(SentenceTextBox.Text))
+            {
+                RequestClose();
+                return;
+            }
+
+            // are adnn panel is loaded?
+            if (this.IsLoaded)
+            {
+                var result = MessageBox.Show("Discard changes?", "Cancel", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+                if (result == MessageBoxResult.Yes)
+                {
+                    RequestClose();
+                }
+            }
+            else
+            {
+                RequestClose();
+            }
+        }
+
+        protected override void OnEscPressed()
+        {
+            CancelButtonClick(null, null);
+        }
+
+        //closing
+        public void RequestClose()
+        {
+            if (_mainWindow == null)
+            {
+                _mainWindow = Window.GetWindow(this) as MainWindow;
+            }
+
+            if (_edittingCardId == null)
+            {
+                if (_mainWindow != null)
+                {
+                    _mainWindow.AddCardContent.Content = null;
+                    _mainWindow.Darkening.Visibility = Visibility.Collapsed;
+                }
+            }
+            else
+            {
+                if (_mainWindow != null)
+                {
+                    _mainWindow.EditCardContent.Content = null;
+                    _mainWindow.Darkening.Visibility = Visibility.Collapsed;
+                }
+            }
+        }
+
         private void SaveButtonClick(object sender, RoutedEventArgs e)
         {
             bool hasError = false;
@@ -103,6 +145,8 @@ namespace FlashCards
 
             ErrorLabelFront.Visibility = Visibility.Collapsed;
             ErrorLabelBack.Visibility = Visibility.Collapsed;
+            StatusLabelFront.Visibility = Visibility.Collapsed;
+            StatusLabelBack.Visibility = Visibility.Collapsed;
 
             if (string.IsNullOrWhiteSpace(WordTextBox.Text))
             {
@@ -118,7 +162,6 @@ namespace FlashCards
 
             if (hasError)
             {
-                //errors
                 if (FrontSide.Visibility == Visibility.Visible)
                 {
                     ErrorLabelFront.Content = "Word and Translation are required!";
@@ -130,18 +173,14 @@ namespace FlashCards
                     ErrorLabelBack.Visibility = Visibility.Visible;
                 }
 
-
                 FlipButton.BorderBrush = new SolidColorBrush(Color.FromRgb(255, 150, 150));
                 FlipButton.BorderThickness = new Thickness(2);
 
-                //timer
                 _highlightTimer.Stop();
                 _highlightTimer.Start();
-
                 return;
             }
 
- 
             var dbService = new DatabaseService();
             dbService.InitDataBase();
 
@@ -159,23 +198,27 @@ namespace FlashCards
             if (_edittingCardId == null)
             {
                 dbService.AddCard(newCard);
+                StatusLabelFront.Content = "Card saved!";
+                StatusLabelFront.Visibility = Visibility.Visible;
+
+                //clearing
+                WordTextBox.Text = "";
+                SentenceTextBox.Text = "";
+                TranslateTextBox.Text = "";
+                CardImage.Source = null;
+
+                RequestClose();
             }
             else
             {
                 dbService.UpdateCard(newCard);
+                StatusLabelFront.Content = "Card updated!";
+                StatusLabelFront.Visibility = Visibility.Visible;
+                StatusLabelBack.Content = "Card updated!";
+                StatusLabelBack.Visibility = Visibility.Visible;
             }
-            
-
-            //clearing
-            WordTextBox.Text = "";
-            SentenceTextBox.Text = "";
-            TranslateTextBox.Text = "";
-            CardImage.Source = null;
-
-            ErrorLabelFront.Visibility = Visibility.Collapsed;
-            ErrorLabelBack.Visibility = Visibility.Collapsed;
-
         }
+
 
         public void LoadCardForEdit(Card card)
         {
