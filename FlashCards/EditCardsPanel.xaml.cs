@@ -49,5 +49,17 @@ namespace FlashCards
             _mainWindow.EditCardContent.Content = _activePanel;
             _mainWindow.Darkening.Visibility = Visibility.Visible;
         }
+
+        private void CloseButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (_mainWindow == null)
+                _mainWindow = Window.GetWindow(this) as MainWindow;
+
+            if (_mainWindow != null)
+            {
+                _mainWindow.EditCardContent.Content = null;
+                _mainWindow.Darkening.Visibility = Visibility.Collapsed;
+            }
+        }
     }
 }

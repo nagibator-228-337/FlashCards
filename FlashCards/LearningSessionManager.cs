@@ -3,37 +3,101 @@ using FlashCards.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Linq;
 
 namespace FlashCards
 {
     internal class LearningSessionManager
     {
-        private List<SessionCard>? _sessionCards;
-        private int _currentIndex = 0;
+        private Queue<SessionCard>? _queue;
+        private SessionCard? _current;
+        private const int PoolSize = 15;
+
         public void StartSession()
         {
             var db = new DatabaseService();
             List<Card> listOfCards = db.CardReader();
 
-            var mixedList = GetPoolOfCards(listOfCards).OrderBy(x => Guid.NewGuid()).ToList();
-            _sessionCards = mixedList.Select(card => new SessionCard(card)).ToList();
+            var pool = GetPoolOfCards(listOfCards)
+                .OrderBy(x => Guid.NewGuid())
+                .Select(card => new SessionCard(card))
+                .ToList();
 
-
-
-            
+            _queue = new Queue<SessionCard>(pool);
+            _current = null;
         }
 
-        public void FlipTheCard()
+        public bool HasNext()
         {
-
+            if (_queue == null) return false;
+            // any non-learned left in queue
+            return _queue.Any(c => !c.IsLearned);
         }
 
-         private Card GetRandomCard (List<Card> cards)
+        // Dequeues next non-learned card and sets it as current
+        public SessionCard? Next()
         {
-            Random rnd = new Random();
+            if (_queue == null) return null;
+
+            while (_queue.Count > 0)
+            {
+                var card = _queue.Dequeue();
+                if (card.IsLearned)
+                {
+                    // skip learned
+                    continue;
+                }
+                _current = card;
+                return card;
+            }
+
+            // no more
+            _current = null;
+            return null;
+        }
+
+        // User swiped left: increase left swipes, slightly decrease known level and re-enqueue
+        public void SwipeLeft()
+        {
+            if (_current == null || _current.Card == null || _queue == null) return;
+
+            _current.LeftSwipes++;
+            _current.Card.KnownLevel = Math.Max(0, _current.Card.KnownLevel - 1);
+
+            // re-enqueue for future repetition
+            _queue.Enqueue(_current);
+
+            // persist change to DB for KnownLevel
+            var db = new DatabaseService();
+            _current.Card.UpdatedAt = DateTime.UtcNow;
+            db.UpdateCard(_current.Card);
+
+            _current = null;
+        }
+
+        // User swiped right: mark learned, increase known level and persist, do not re-enqueue
+        public void SwipeRight()
+        {
+            if (_current == null || _current.Card == null) return;
+
+            _current.IsLearned = true;
+            _current.Card.KnownLevel++;
+            _current.Card.UpdatedAt = DateTime.UtcNow;
+
+            var db = new DatabaseService();
+            db.UpdateCard(_current.Card);
+
+            _current = null;
+        }
+
+        public void FlipCurrent()
+        {
+            if (_current == null) return;
+            _current.IsFlipped = !_current.IsFlipped;
+        }
+
+        private Card GetRandomCard(List<Card> cards)
+        {
+            var rnd = new Random();
 
             double totalWeight = 0;
 
@@ -55,7 +119,7 @@ namespace FlashCards
             var result = new List<Card>();
             var pool = new List<Card>(allCards);
 
-            while (result.Count < 15 && pool.Count > 0)
+            while (result.Count < PoolSize && pool.Count > 0)
             {
                 var card = GetRandomCard(pool);
                 result.Add(card);

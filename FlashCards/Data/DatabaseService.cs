@@ -59,12 +59,12 @@ namespace FlashCards.Data
             using var command = connection.CreateCommand();
             command.CommandText = query;
 
-            command.Parameters.AddWithValue("@word", card.Word);
-            command.Parameters.AddWithValue("@translation", card.Translation);
+            command.Parameters.AddWithValue("@word", card.Word ?? "");
+            command.Parameters.AddWithValue("@translation", card.Translation ?? "");
             command.Parameters.AddWithValue("@sentence", card.Sentence ?? "");
             command.Parameters.AddWithValue("@image", card.ImagePath ?? "");
             command.Parameters.AddWithValue("@level", card.KnownLevel);
-            command.Parameters.AddWithValue("@last", card.LastReviewed?.ToString("o") ?? (object)DBNull.Value); 
+            command.Parameters.AddWithValue("@last", card.LastReviewed?.ToString("o") ?? (object)DBNull.Value);
             command.Parameters.AddWithValue("@next", card.NextAvailableAfter);
             command.Parameters.AddWithValue("@created", card.CreatedAt.ToString("o"));
             command.Parameters.AddWithValue("@updated", card.UpdatedAt.ToString("o"));
@@ -81,25 +81,51 @@ namespace FlashCards.Data
             command.CommandText = "SELECT * FROM Cards";
             using var reader = command.ExecuteReader();
 
-            while (reader.Read()) 
+            while (reader.Read())
             {
                 int id = Convert.ToInt32(reader["Id"]);
-                string word = (string)reader["Word"];
+                string word = reader["Word"] is DBNull ? "" : (string)reader["Word"];
                 string translation = reader["Translation"] is DBNull ? "" : (string)reader["Translation"];
-                int level = Convert.ToInt32(reader["KnownLevel"]);
+                string sentence = reader["Sentence"] is DBNull ? "" : (string)reader["Sentence"];
+                string image = reader["ImagePath"] is DBNull ? "" : (string)reader["ImagePath"];
+                int level = reader["KnownLevel"] is DBNull ? 0 : Convert.ToInt32(reader["KnownLevel"]);
+                DateTime? lastReviewed = null;
+                if (!(reader["LastReviewed"] is DBNull))
+                {
+                    if (DateTime.TryParse((string)reader["LastReviewed"], out var dt))
+                        lastReviewed = dt;
+                }
+                int nextAvailable = reader["NextAvailableAfter"] is DBNull ? 0 : Convert.ToInt32(reader["NextAvailableAfter"]);
+                DateTime created = DateTime.UtcNow;
+                DateTime updated = DateTime.UtcNow;
+                if (!(reader["CreatedAt"] is DBNull))
+                {
+                    DateTime.TryParse((string)reader["CreatedAt"], out created);
+                }
+                if (!(reader["UpdatedAt"] is DBNull))
+                {
+                    DateTime.TryParse((string)reader["UpdatedAt"], out updated);
+                }
+
                 Card card = new Card()
                 {
                     Id = id,
                     Word = word,
                     Translation = translation,
-                    KnownLevel = level
+                    Sentence = sentence,
+                    ImagePath = image,
+                    KnownLevel = level,
+                    LastReviewed = lastReviewed,
+                    NextAvailableAfter = nextAvailable,
+                    CreatedAt = created,
+                    UpdatedAt = updated
                 };
                 cards.Add(card);
             }
             return cards;
         }
 
-        public void UpdateCard (Card card)
+        public void UpdateCard(Card card)
         {
             using var connection = new SqliteConnection($"Data Source={_dbPath}");
             connection.Open();
@@ -111,15 +137,21 @@ namespace FlashCards.Data
                     Translation = @translation,
                     Sentence = @sentence,
                     ImagePath = @image,
+                    KnownLevel = @level,
+                    LastReviewed = @last,
+                    NextAvailableAfter = @next,
                     UpdatedAt = @updated
                 WHERE Id = @id;
              ";
 
             command.Parameters.AddWithValue("@id", card.Id);
-            command.Parameters.AddWithValue("@word", card.Word);
-            command.Parameters.AddWithValue("@translation", card.Translation);
+            command.Parameters.AddWithValue("@word", card.Word ?? "");
+            command.Parameters.AddWithValue("@translation", card.Translation ?? "");
             command.Parameters.AddWithValue("@sentence", card.Sentence ?? "");
             command.Parameters.AddWithValue("@image", card.ImagePath ?? "");
+            command.Parameters.AddWithValue("@level", card.KnownLevel);
+            command.Parameters.AddWithValue("@last", card.LastReviewed?.ToString("o") ?? (object)DBNull.Value);
+            command.Parameters.AddWithValue("@next", card.NextAvailableAfter);
             command.Parameters.AddWithValue("@updated", card.UpdatedAt.ToString("o"));
             command.ExecuteNonQuery();
         }
