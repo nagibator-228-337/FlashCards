@@ -86,16 +86,19 @@ Option 2: Open and Run the Project in Visual Studio
 Install Visual Studio 2022
 Go to the official website: https://visualstudio.microsoft.com/
 Download and install Visual Studio Community 2022.
+
 Install the .NET 8 SDK
 The project targets .NET 8, so you’ll need the SDK installed. You can download it here:
 https://dotnet.microsoft.com/en-us/download/dotnet/8.0
 (If you install Visual Studio with the “.NET desktop development” workload, .NET 8 is usually included—but it’s safest to verify.)
 Make sure the WPF workload is installed
 During Visual Studio installation (or via the Visual Studio Installer later), ensure the “.NET desktop development” workload is checked. This includes everything needed for WPF apps (XAML editor, designer, templates, etc.).
+
 Open the project
 Download or clone the repository to your computer.
 Navigate to the folder containing FlashCards.sln.
 Double-click FlashCards.sln — it will open automatically in Visual Studio.
+
 Build and run
 In Visual Studio, press Ctrl+Shift+B to build the solution, or just press F5 to build and launch the app.
 The application will start, and you’ll see the main window with options to add cards, edit them, or start a learning session.
